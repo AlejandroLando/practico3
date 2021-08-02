@@ -1,0 +1,9 @@
+#!/bin/bash
+function salir{
+  exit
+} 
+function parametro{
+  man $1
+}
+parametro $1
+salir
