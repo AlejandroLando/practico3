@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ -d "$l" ]; then 
+    echo El parametro es un directorio 
+    exit
+elif [ -f "$l" ]
+    echo El parametro es un archivo
+    exit
+elfi [ -z "$l" ]
+    echo No tiene parametros 
+    exit
+fi
