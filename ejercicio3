@@ -1,0 +1,6 @@
+#!/bin/bash
+if[ -Z "$l" ]; then 
+    echo Para ejecutar el archivo se recomienda: $ ./NombreArchivo
+    echo Sino también: $ bash NombreArchivo
+    exit
+fi
